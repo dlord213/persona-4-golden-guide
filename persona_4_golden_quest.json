@@ -1,0 +1,554 @@
+[
+    {
+        "Quest": "Who's the Riddle Master?!",
+        "No.": "1",
+        "Quest Giver": "Funky Student, Classroom Building 3F",
+        "Available": "4/18",
+        "Reward": "Chest Key x3",
+        "Remarks": "\"Group A\", \"Top 6 Flag Colors\""
+    },
+    {
+        "Quest": "The Girl on the Rooftop",
+        "No.": "2",
+        "Quest Giver": "Male student by the window, Classroom 2-2",
+        "Available": "4/25",
+        "Reward": "Goho-M",
+        "Remarks": "Talk to the girl on the roof 3 times, can only ask one question per day.*"
+    },
+    {
+        "Quest": "Acquire Mori Ranmaru Shochu",
+        "No.": "3",
+        "Quest Giver": "Man to the west, Samegawa Flood Plain",
+        "Available": "5/1",
+        "Reward": "¥4,000",
+        "Remarks": "Check barrels in the Twisted Shopping District"
+    },
+    {
+        "Quest": "Acquire an Angel Statue",
+        "No.": "4",
+        "Quest Giver": "Timid Female Student, Classroom 2-2",
+        "Available": "5/2",
+        "Reward": "Chest Key x3",
+        "Remarks": "Dropped by Avenger Knight, Yukiko's Castle 6-7F"
+    },
+    {
+        "Quest": "Acquire a Demon Statue",
+        "No.": "5",
+        "Quest Giver": "Shady Student, Classroom Building 2F",
+        "Available": "5/2 *",
+        "Reward": "Dokudami Tea x3",
+        "Remarks": "Dropped by Magical Magus, Yukiko's Castle 6-7F"
+    },
+    {
+        "Quest": "Acquire a Ritz Wire",
+        "No.": "6",
+        "Quest Giver": "Male student near Science Room, Practice Building 1F",
+        "Available": "5/2",
+        "Reward": "Olympic Tape",
+        "Remarks": "Dropped by Heat Balance, Yukiko's Castle 6-7F"
+    },
+    {
+        "Quest": "I Wish for Love",
+        "No.": "7",
+        "Quest Giver": "Fox",
+        "Available": "5/6",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to the girl on 3 different days, in the school lobby, then Learning Building 2F (select \"I read it\") twice"
+    },
+    {
+        "Quest": "I Wish I Didn't Crave for Snacks",
+        "No.": "8",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 2",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to Slim Lady, Shopping District South; get \"Meat Gum\" from Chie and give to Slim Lady"
+    },
+    {
+        "Quest": "We Wish our Dog Would Return",
+        "No.": "9",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 3",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk gently to the dog at the Riverbed and Shopping District North* until it can be fed a Steak Skewer (buy at Souzai Daigaku)"
+    },
+    {
+        "Quest": "I Wish I Had Friends",
+        "No.": "10",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 4",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to the boy on Samegawa Flood Plain (\"I don't want your money\"); give him a Prize Sticker from the Shopping Network; talk to him again, then get a sticker from Nanako to give him, then talk to him the following day"
+    },
+    {
+        "Quest": "I Wish My Life Had Meaning Again",
+        "No.": "11",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 5",
+        "Reward": "Hermit Social Link Up, Unfinished Model",
+        "Remarks": "Talk to the Haggard Man, Shopping District North (\"Want me to make it?\"); build the Unfinished Model over 4 days, then give it to him"
+    },
+    {
+        "Quest": "I Wish I Was Better at Speaking",
+        "No.": "12",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 6",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to the girl on the roof; \"Do you need help speaking?\", \"Give her lessons\" (Expression 3+), then \"Apologize to her\" (Courage 3+)"
+    },
+    {
+        "Quest": "I Wish I Didn't Fear Cats",
+        "No.": "13",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 7",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to the fearful man at Samegawa Flood Plain (\"Is it a cat?\"), then talk to the cat outside the Dojima Residence, and bring the man to see the cat; give the man a Red Goldfish, then talk to him the next day"
+    },
+    {
+        "Quest": "I Wish My Wallet Would Return",
+        "No.": "14",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 8",
+        "Reward": "Hermit Social Link Up",
+        "Remarks": "Talk to the woman near the trash can at Samegawa Flood Plain; check the riverbank bushes to find the wrong wallet and try to give it to her; find her wallet in the bushes outside Tatsuhime Shrine and give it to her"
+    },
+    {
+        "Quest": "The Shichiri Beach Guardian *",
+        "No.": "15",
+        "Quest Giver": "Fox",
+        "Available": "5/6, Rank 9",
+        "Reward": "Hermit Social Link Max",
+        "Remarks": "Catch a \"Huge Fish\", bring to the Old Man and ask about the Guardian; use the Angler's Set to catch it (only available on rainy days or in December). After catching a River Guardian, obtain the Deep-Sea Rod from the old man on the riverbank. It will allow you to fish the Sea Guardian on Shichiri Beach."
+    },
+    {
+        "Quest": "Desk Refurbishing",
+        "No.": "16",
+        "Quest Giver": "Homely Student, Biology Lab",
+        "Available": "5/18",
+        "Reward": "Royal Jelly x5",
+        "Remarks": "Dropped by Laughing Table, Yukiko's Castle 6-7F"
+    },
+    {
+        "Quest": "Extracurricular Activities",
+        "No.": "17",
+        "Quest Giver": "Ms. Sofue, Classroom Building 2F",
+        "Available": "5/18",
+        "Reward": "Pulsating Stone x2",
+        "Remarks": "Dropped by Trance Twins, Yukiko's Castle 3-5F"
+    },
+    {
+        "Quest": "Book Exchange",
+        "No.": "18",
+        "Quest Giver": "Man in front of bookstore, Shopping District South",
+        "Available": "5/23",
+        "Reward": "The Gentle Way (book)",
+        "Remarks": "Give him a Peach Seed"
+    },
+    {
+        "Quest": "Tissue Distribution",
+        "No.": "19",
+        "Quest Giver": "Man in front of theater, Okina City",
+        "Available": "6/11",
+        "Reward": "¥5,000",
+        "Remarks": "You will be given tissues to distribute to everyone in the area. Do this, and talk to him again to complete the request."
+    },
+    {
+        "Quest": "Please Feed the Cat",
+        "No.": "20",
+        "Quest Giver": "Avid Reader, Shopping District",
+        "Available": "6/3, Complete #18",
+        "Reward": "The Punk's Way (book)",
+        "Remarks": "Feed the cat one fish"
+    },
+    {
+        "Quest": "Feed the Cat",
+        "No.": "21",
+        "Quest Giver": "Cat, Samegawa Flood Plain",
+        "Available": "6/3, Complete #20",
+        "Reward": "Antibiotic Gel",
+        "Remarks": "Feed the cat fish once a day for 7 days"
+    },
+    {
+        "Quest": "Cat Needs Food Badly",
+        "No.": "22",
+        "Quest Giver": "Cat",
+        "Available": "6/3, Complete #21",
+        "Reward": "Soma",
+        "Remarks": "Feed the cat fish 20 times. If you have extra Guardian to give the cat, you only need to feed it 4-5 times."
+    },
+    {
+        "Quest": "Acquire an Old Key",
+        "No.": "23",
+        "Quest Giver": "Old Woman, Samegawa Flood Plain",
+        "Available": "6/5",
+        "Reward": "Knowledge + Courage Up",
+        "Remarks": "Dropped by Bribed Fuzz, Steamy Bathhouse 1-2F"
+    },
+    {
+        "Quest": "Acquire Coal",
+        "No.": "24",
+        "Quest Giver": "Loud Old Man, Shopping District North",
+        "Available": "6/5",
+        "Reward": "¥15,000",
+        "Remarks": "Dropped by Selfish Basalt, Steamy Bathhouse 5-7F"
+    },
+    {
+        "Quest": "100% Inaba-Grown Cabbage",
+        "No.": "25",
+        "Quest Giver": "Fussy Housewife, Junes",
+        "Available": "6/5, Gardening unlocked",
+        "Reward": "Sharp Shovel (Weapon)",
+        "Remarks": "Buy Cabbage Seedlings and grow three Hiranya Cabbages in your garden. Give these to the housewife."
+    },
+    {
+        "Quest": "Acquire a Crooked Cross",
+        "No.": "26",
+        "Quest Giver": "Timid Female Student, Classroom 2-2",
+        "Available": "6/7, Complete #4",
+        "Reward": "Ointment x3",
+        "Remarks": "Dropped by Tranquil Idol, Steamy Bathhouse 6-8F"
+    },
+    {
+        "Quest": "Acquire a Charmed Veil",
+        "No.": "27",
+        "Quest Giver": "Timid Female Student, Classroom 2-2",
+        "Available": "7/12, Complete #26",
+        "Reward": "Chest Key x5",
+        "Remarks": "Dropped by Liberating Idol, Marukyu Striptease 3-10F"
+    },
+    {
+        "Quest": "Desk Refurbishing, Part 2",
+        "No.": "28",
+        "Quest Giver": "Homely Student, Practice Building 2F",
+        "Available": "6/7, Complete #16",
+        "Reward": "Snuff Soul x2",
+        "Remarks": "Dropped by Crying Table, Steamy Bathhouse 8-10F"
+    },
+    {
+        "Quest": "Acquire a Horn",
+        "No.": "29",
+        "Quest Giver": "Housewife, Shopping District South",
+        "Available": "6/9",
+        "Reward": "¥18,000",
+        "Remarks": "Dropped by Grave Beetle, Steamy Bathhouse 8-10F"
+    },
+    {
+        "Quest": "Please Find my Younger Twin",
+        "No.": "30",
+        "Quest Giver": "Orange haired girl, Shopping District South",
+        "Available": "6/9 *",
+        "Reward": "Goho-M x5",
+        "Remarks": "Talk to her twin on Samegawa Flood Plain, then return"
+    },
+    {
+        "Quest": "The Cleaning Club's Passion",
+        "No.": "31",
+        "Quest Giver": "Male student, Classroom Building 3F",
+        "Available": "6/11",
+        "Reward": "Bamboo Broom (Weapon)",
+        "Remarks": "Obtain the Iai Katana from Daidara Metalworks (sell six Golden Cloths dropped by Phantom Mage, Yukiko's Castle 5-7F), trade the katana to a student on Practice Building 2F to obtain the Cleaning Mop. After accepting the hospital job, you can buy the Cleaning Uniform from Croco Fur in Okina (¥14,800). Show these to the student on 3F."
+    },
+    {
+        "Quest": "Acquire Inaba Trout",
+        "No.": "32",
+        "Quest Giver": "Master Daidara, Daidara Metalworks",
+        "Available": "6/14",
+        "Reward": "Inaba Trout (weapon)",
+        "Remarks": "Give Daidara an Inaba Trout. This can be fished from the river or bought from Tanaka on 6/5 and 9/11."
+    },
+    {
+        "Quest": "Acquire a Silver Lump",
+        "No.": "33",
+        "Quest Giver": "Male student near Science Room, Practice Building 1F",
+        "Available": "6/30, Complete #6",
+        "Reward": "Uplifting Radio x2",
+        "Remarks": "Dropped by Silver Dice, Marukyu Striptease 5-8F"
+    },
+    {
+        "Quest": "Acquire Hard Boots",
+        "No.": "34",
+        "Quest Giver": "Avid Reader, Shopping District",
+        "Available": "7/3, Complete #20",
+        "Reward": "¥5000 + Guide to Pests (book)",
+        "Remarks": "Buy from Daidara Metalworks (Sell Thick Hide x5)"
+    },
+    {
+        "Quest": "Carbon Copy",
+        "No.": "35",
+        "Quest Giver": "Orange haired girl, Samagawa Flood Plain",
+        "Available": "7/13 *",
+        "Reward": "Value Medicine x3",
+        "Remarks": "Dropped by Soul Dancer, Marukyu Striptease 1-4F"
+    },
+    {
+        "Quest": "Carbon Copy, Part 2",
+        "No.": "36",
+        "Quest Giver": "Riverbed Twin",
+        "Available": "8/22 *, Complete #35",
+        "Reward": "Macca Leaf x3",
+        "Remarks": "Dropped by Blind Cupid, Void Quest 3-4F"
+    },
+    {
+        "Quest": "Pining For Stylish Formalwear",
+        "No.": "37",
+        "Quest Giver": "Woman in heavy makeup, Okina City",
+        "Available": "7/16",
+        "Reward": "Royal Jelly x3",
+        "Remarks": "Obtain Gentleman's Tux from a gold chest in Yukiko's Castle."
+    },
+    {
+        "Quest": "Harvest Two Types of Corn",
+        "No.": "38",
+        "Quest Giver": "Master Daidara, Daidara Metalworks",
+        "Available": "7/25",
+        "Reward": "Grilled Corn (weapon)",
+        "Remarks": "Buy Barrier Corn seeds and harvest Tetracorn and Makaracorn for Daidara."
+    },
+    {
+        "Quest": "Acquire an Eternal Lamp",
+        "No.": "39",
+        "Quest Giver": "Refreshed old man, Samegawa Flood Plain",
+        "Available": "8/22",
+        "Reward": "¥30,000",
+        "Remarks": "Dropped by Amenti Raven, Void Quest 3-4F"
+    },
+    {
+        "Quest": "Acquire Some Fashionable Dishes",
+        "No.": "40",
+        "Quest Giver": "Avid Reader, Shopping District",
+        "Available": "8/9, Complete #34",
+        "Reward": "¥10,000, Riddlemania (book)",
+        "Remarks": "Dropped by Sky Balance, Marukyu Striptease 9-10F, 3 needed"
+    },
+    {
+        "Quest": "What Was That in the Movie?",
+        "No.": "41",
+        "Quest Giver": "Movie buff, Okina City",
+        "Available": "8/9, Complete #34",
+        "Reward": "Mystical Scarab",
+        "Remarks": "Ask Ms. Sofue (Classroom Building 2F) about OOPArts, and then report to the movie girl."
+    },
+    {
+        "Quest": "Riddle Senpai Returns!",
+        "No.": "42",
+        "Quest Giver": "Funky Student, Classroom Building 3F",
+        "Available": "9/2, Complete #1",
+        "Reward": "Snuff Soul",
+        "Remarks": "\"Group A\", \"Human motion\", \"Group B\", \"Indefinite articles\""
+    },
+    {
+        "Quest": "Experiment in Telepathy",
+        "No.": "43",
+        "Quest Giver": "Older twin",
+        "Available": "9/5 *, Complete #30",
+        "Reward": "Dokudami Tea x5",
+        "Remarks": "Talk to the Older twin on Shopping District, South, then talk to the Younger twin on Riverbed and pick the first choice, come back and talk to the Older twin."
+    },
+    {
+        "Quest": "Extracurricular Activities, Part 2",
+        "No.": "44",
+        "Quest Giver": "Ms. Sofue, Classroom Building 2F",
+        "Available": "9/20, Complete #10",
+        "Reward": "Mystical Scarab x2",
+        "Remarks": "Dropped by Steel Machine, Void Quest 9-10F"
+    },
+    {
+        "Quest": "A Test of Literary Memory",
+        "No.": "45",
+        "Quest Giver": "Avid Reader, Shopping District",
+        "Available": "9/26, Complete #40",
+        "Reward": "Who Am I? (book)",
+        "Remarks": "\"Judo Medalist Names\", \"How one should live as a punk\", \"2 pages per pest\", \"Me\""
+    },
+    {
+        "Quest": "Desk Refurbishing, Part 3",
+        "No.": "46",
+        "Quest Giver": "Homely Student, Practice Building 2F",
+        "Available": "9/29, Complete #28",
+        "Reward": "Bead",
+        "Remarks": "Dropped by Furious Gigas, Secret Laboratory 3-4BF"
+    },
+    {
+        "Quest": "Find Me Something to Wear",
+        "No.": "47",
+        "Quest Giver": "Juli Fan, Okina City",
+        "Available": "10/12",
+        "Reward": "Disco Fan (weapon)",
+        "Remarks": "Obtain the Invincible Mini from Daidara (sell 8 Power Rocks dropped by Power Castle, Secret Lab 3-4BF and 6-8BF), give it to the NPC."
+    },
+    {
+        "Quest": "Acquire a Crystal Ball",
+        "No.": "48",
+        "Quest Giver": "Mrs. Nakayama, Classroom Building 3F",
+        "Available": "10/8",
+        "Reward": "¥35,000",
+        "Remarks": "Dropped by Constancy Relic, Secret Laboratory 1-2BF"
+    },
+    {
+        "Quest": "Acquire a Training Shell",
+        "No.": "49",
+        "Quest Giver": "Principal, Classroom Building 3F",
+        "Available": "10/8",
+        "Reward": "Understanding + Diligence Up",
+        "Remarks": "Dropped by Wicked Turret, Secret Laboratory 7-8BF"
+    },
+    {
+        "Quest": "Acquire a High-Speed Gear",
+        "No.": "50",
+        "Quest Giver": "Girl in glasses, Classroom Building 1F",
+        "Available": "10/8",
+        "Reward": "Physical Mirror x3",
+        "Remarks": "Dropped by Mach Wheel, Secret Laboratory 5-6BF"
+    },
+    {
+        "Quest": "Acquire Fine Coal",
+        "No.": "51",
+        "Quest Giver": "Loud Old Man, Shopping District North",
+        "Available": "10/9, Complete #11",
+        "Reward": "¥40,000",
+        "Remarks": "Dropped by Power Castle, Secret Laboratory 7-8BF"
+    },
+    {
+        "Quest": "A Twin's Independence",
+        "No.": "52",
+        "Quest Giver": "Riverbed Twin",
+        "Available": "10/9 *, Complete #36",
+        "Reward": "Bead Chain",
+        "Remarks": "Dropped by Elegant Mother, Secret Laboratory 7-8BF"
+    },
+    {
+        "Quest": "Experiments in Telepathy, Part 2",
+        "No.": "53",
+        "Quest Giver": "Bookstore Twin",
+        "Available": "10/31 *, Complete #52",
+        "Reward": "Super Sonic x3",
+        "Remarks": "Speak to the Riverbed Twin, then the Bookstore Twin; repeat"
+    },
+    {
+        "Quest": "Find My Pet",
+        "No.": "54",
+        "Quest Giver": "Frantic Middle-aged Woman, Okina City",
+        "Available": "11/1",
+        "Reward": "Haikara Shirt",
+        "Remarks": "Find the dog at Shopping District, North. Call her each of the names, with \"Mika-chan\" last. The dog will run away. Come back for three days, feeding her Steak Skewers from the shop she's sitting in front of each day. On the third day, call her name again."
+    },
+    {
+        "Quest": "Revenge of Riddle Senpai!",
+        "No.": "55",
+        "Quest Giver": "Funky Student, Classroom Building 3F",
+        "Available": "11/12, Complete #42",
+        "Reward": "Chewing Soul",
+        "Remarks": "\"Group B\", \"The way they're drawn\", \"Promethium\", \"Need\""
+    },
+    {
+        "Quest": "The Girl on the Rooftop, Part 2",
+        "No.": "56",
+        "Quest Giver": "Male student by the window, Classroom 2-2",
+        "Available": "11/22, Complete #3",
+        "Reward": "Mokoi Doll",
+        "Remarks": "Dropped by Prime Magus, Heaven 1-2F"
+    },
+    {
+        "Quest": "Desk Refurbishing, Part 4",
+        "No.": "57",
+        "Quest Giver": "Homely Student, Practice Building 2F",
+        "Available": "11/22, Complete #46",
+        "Reward": "Assault Signal x3",
+        "Remarks": "Dropped by Angry Table, Heaven floors 5-7"
+    },
+    {
+        "Quest": "Acquire an Old Ore",
+        "No.": "58",
+        "Quest Giver": "Male student, Practice Building 1F",
+        "Available": "11/22, Complete #33",
+        "Reward": "Spirit Radio",
+        "Remarks": "Dropped by Revelation Pesce, Heaven 6-7F"
+    },
+    {
+        "Quest": "Acquire a Modest Lamp",
+        "No.": "59",
+        "Quest Giver": "Old Man, Riverbed",
+        "Available": "11/22, Complete #39",
+        "Reward": "¥45,000",
+        "Remarks": "Dropped by Phantom Lord, Heaven 3-5F"
+    },
+    {
+        "Quest": "Acquire Samegawa's Guardian",
+        "No.": "60",
+        "Quest Giver": "Master Daidara, Daidara Metalworks",
+        "Available": "1/10",
+        "Reward": "Guardian (weapon)",
+        "Remarks": "Catch the Guardian from the River."
+    },
+    {
+        "Quest": "Find My Pet, Part 2",
+        "No.": "61",
+        "Quest Giver": "Frantic Middle-aged Woman, Okina City",
+        "Available": "1/10, Complete #54",
+        "Reward": "Haikara Shirt",
+        "Remarks": "Find the cat at the Riverbank. Call it the different names prompted, and feed it 5 different fish for 5 days. On the fifth day, call it by the prompted names again to finish the request."
+    },
+    {
+        "Quest": "Extracurricular Activities, Part 3",
+        "No.": "62",
+        "Quest Giver": "Ms. Sofue, Classroom Building 2F",
+        "Available": "1/10, Complete #44",
+        "Reward": "Silver Tray (weapon)",
+        "Remarks": "Dropped by Solemn Machine, Magatsu Mandala 6F"
+    },
+    {
+        "Quest": "Acquire Golden Chains",
+        "No.": "63",
+        "Quest Giver": "Ms. Nakayama, Classroom Building 3F",
+        "Available": "1/10, Complete #48",
+        "Reward": "¥65,000",
+        "Remarks": "Dropped by Minotaur II, Magatsu Mandala 6F"
+    },
+    {
+        "Quest": "Riddle Senpai's Encore!",
+        "No.": "64",
+        "Quest Giver": "Funky Student, Classroom Building 3F",
+        "Available": "1/10, Complete #55",
+        "Reward": "Soul Food x3",
+        "Remarks": "Answer \"Uruguay\""
+    },
+    {
+        "Quest": "Kashiwagi's Special Lesson",
+        "No.": "65",
+        "Quest Giver": "Mrs. Kashiwagi, Classroom Building 1F",
+        "Available": "1/16",
+        "Reward": "Coronet Armor",
+        "Remarks": "\"Deoxyribonucleic Acid\", \"Rabbit\""
+    },
+    {
+        "Quest": "Show Me Some Cute Slippers",
+        "No.": "66",
+        "Quest Giver": "Mrs. Kashiwagi, Classroom Building 1F",
+        "Available": "1/17, Complete #65",
+        "Reward": "Fighter Armor",
+        "Remarks": "Obtain Vidar's Boots from Daidara (sell 8 Bloody Hides dropped by Jotun of Blood, Heaven 8-9F), trade the boots to the student on Practice Building 2F to obtain the Animal Slippers. Give the slippers to Kashiwagi."
+    },
+    {
+        "Quest": "Dazzle Me With Animal Paw Gloves",
+        "No.": "67",
+        "Quest Giver": "Mrs. Kashiwagi, Classroom Building 1F",
+        "Available": "1/18, Complete #66",
+        "Reward": "Magical Armor",
+        "Remarks": "Magatsu Xandrite (x8) are dropped by golden shadows in any dungeon, but higher chance in late-game. Mondo Stone (x1) is obtained from the Lady in White at the Tatsuhime Shrine at night, traded for a Guardian from the river. Take these to Shiroku Pub at night to obtain the Animal Paw."
+    },
+    {
+        "Quest": "Kashiwagi's Special Lesson, Part 2",
+        "No.": "68",
+        "Quest Giver": "Mrs. Kashiwagi, Classroom Building 1F",
+        "Available": "1/18 Complete #67",
+        "Reward": "School Swimsuit",
+        "Remarks": "\"Raster\", \"Latin\", \"Rome\""
+    },
+    {
+        "Quest": "A Student Should Study",
+        "No.": "69",
+        "Quest Giver": "Principal, Classroom Building 3F",
+        "Available": "1/23",
+        "Reward": "Victory Fan (weapon)",
+        "Remarks": "\"Wind\", \"Upper, Middle, and Lower\", \"7\", \"Mameluke\""
+    }
+]
