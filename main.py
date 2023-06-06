@@ -6,13 +6,13 @@ from PySide6.QtCore import *
 from PySide6.QtGui import *
 from persona_4_ui import Ui_persona4Window
 
-with open('./persona_4_golden_answers.json', 'r') as answerData:
+with open('./data/persona_4_golden_answers.json', 'r') as answerData:
     goldenAnswers = json.load(answerData)
 
-with open('./persona_4_golden_quest.json', 'r') as questData:
+with open('./data/persona_4_golden_quest.json', 'r') as questData:
     goldenQuests = json.load(questData)
 
-with open('./persona_4_golden_shadows.json', 'r') as shadowsData:
+with open('./data/persona_4_golden_shadows.json', 'r') as shadowsData:
     goldenShadows = json.load(shadowsData)
 
 class ElementAffinity(Enum):
@@ -206,7 +206,7 @@ class personaApp(QMainWindow, Ui_persona4Window):
 
         listWidget.itemClicked.connect(lambda: self.getShadowData())
 
-    
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
