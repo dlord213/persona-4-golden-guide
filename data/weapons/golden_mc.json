@@ -1,0 +1,317 @@
+[
+  {
+    "Weapon": "Golf Club",
+    "Attack": 42,
+    "Accuracy": 93,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Default"
+  },
+  {
+    "Weapon": "Musashi Shinai",
+    "Attack": 42,
+    "Accuracy": 98,
+    "Effect": "+50% EXP",
+    "Price": "-",
+    "Materials": "Guardian x2",
+    "Location": "Riverbed - Trade (December)"
+  },
+  {
+    "Weapon": "Imitation Katana",
+    "Attack": 53,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥4,800",
+    "Materials": "-",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Long Sword",
+    "Attack": 60,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥10,000",
+    "Materials": "Black Lamp x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "5-Iron",
+    "Attack": 71,
+    "Accuracy": 95,
+    "Effect": "¥12,000",
+    "Price": "Supple Metal x10",
+    "Materials": "",
+    "Location": ""
+  },
+  {
+    "Weapon": "Iai Katana",
+    "Attack": 78,
+    "Accuracy": 98,
+    "Effect": "+3 Agility",
+    "Price": "¥13,600",
+    "Materials": "Golden Cloth x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Bastard Sword",
+    "Attack": 88,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥14,000",
+    "Materials": "Powered Iron x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Zweihander",
+    "Attack": 108,
+    "Accuracy": 95,
+    "Effect": "+1 Endurance",
+    "Price": "¥18,000",
+    "Materials": "Pure Iron Lump x8",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Titanium Club",
+    "Attack": 130,
+    "Accuracy": 96,
+    "Effect": "+2 Agility",
+    "Price": "-",
+    "Materials": "Inaba Trout x2",
+    "Location": "Riverbed - Trade (May)"
+  },
+  {
+    "Weapon": "Gothic Sword",
+    "Attack": 133,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥20,000",
+    "Materials": "Iron Eyeball x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Myth-like Sword",
+    "Attack": 140,
+    "Accuracy": 80,
+    "Effect": "-",
+    "Price": "¥9,800\n¥12,800",
+    "Materials": "-",
+    "Location": "Shopping Network (June 26)\nShopping Network (August 7)"
+  },
+  {
+    "Weapon": "Type-98 Gunto",
+    "Attack": 145,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥24,000",
+    "Materials": "Silver Lump x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Edge",
+    "Attack": 152,
+    "Accuracy": 92,
+    "Effect": "+3 Strength",
+    "Price": "¥27,000",
+    "Materials": "Nice Ornament x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Kage-Dachi",
+    "Attack": 172,
+    "Accuracy": 92,
+    "Effect": "+20 HP",
+    "Price": "¥30,000",
+    "Materials": "Compacted Metal x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Anglaise",
+    "Attack": 180,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥31,000",
+    "Materials": "Blade Metal x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Great Sword",
+    "Attack": 190,
+    "Accuracy": 84,
+    "Effect": "+2 Strength",
+    "Price": "¥32,000",
+    "Materials": "Tungsten x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Wooden Bat",
+    "Attack": 200,
+    "Accuracy": 30,
+    "Effect": "+Critical Rate up (low)",
+    "Price": "¥14,400",
+    "Materials": "-",
+    "Location": "Shopping Network (August 14)"
+  },
+  {
+    "Weapon": "Gaia Sword",
+    "Attack": 200,
+    "Accuracy": 88,
+    "Effect": "+All ailments (low)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat secret boss - Void Quest"
+  },
+  {
+    "Weapon": "Midare Hamon",
+    "Attack": 210,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥36,000",
+    "Materials": "Insolence Steel x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Kakitsubata",
+    "Attack": 218,
+    "Accuracy": 94,
+    "Effect": "¥37,600",
+    "Price": "-",
+    "Materials": "Iron Gear x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Gardenia Sword",
+    "Attack": 220,
+    "Accuracy": 92,
+    "Effect": "+Silence (low odds)",
+    "Price": "¥38,000",
+    "Materials": "Damascus x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Krieg",
+    "Attack": 230,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥40,000",
+    "Materials": "Flame Steel x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Number One",
+    "Attack": 240,
+    "Accuracy": 94,
+    "Effect": "+1 Luck",
+    "Price": "¥42,000",
+    "Materials": "Sacrilege Iron x8",
+    "Location": ""
+  },
+  {
+    "Weapon": "Downpour Sword",
+    "Attack": 248,
+    "Accuracy": 50,
+    "Effect": "+Critical rate up (high)",
+    "Price": "¥28,000",
+    "Materials": "3rd Boy's Talc x1",
+    "Location": ""
+  },
+  {
+    "Weapon": "Kenka",
+    "Attack": 248,
+    "Accuracy": 90,
+    "Effect": "-",
+    "Price": "¥42,000",
+    "Materials": "Prime Steel x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Metal Bat",
+    "Attack": 250,
+    "Accuracy": 30,
+    "Effect": "+Critical Rate up (med)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Gift from Margaret for completing 50% of active Social Links"
+  },
+  {
+    "Weapon": "Kijintou",
+    "Attack": 252,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥43,600",
+    "Materials": "Platinum Reins x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "El Caliente",
+    "Attack": 302,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥50,000",
+    "Materials": "Diamond Canine x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Shichisei-Ken",
+    "Attack": 310,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥52,000",
+    "Materials": "Brilliant Armor x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Yahiro Sword",
+    "Attack": 320,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥54,000",
+    "Materials": "Spark Ornament x8",
+    "Location": ""
+  },
+  {
+    "Weapon": "Triumph",
+    "Attack": 334,
+    "Accuracy": 94,
+    "Effect": "+5 Luck",
+    "Price": "¥56,000",
+    "Materials": "Orichalcum x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Tajikarao Sword",
+    "Attack": 345,
+    "Accuracy": 85,
+    "Effect": "-",
+    "Price": "¥58,000",
+    "Materials": "Crown of Truth x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Futsuno Mitama",
+    "Attack": 360,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥61,600",
+    "Materials": "Ripper Horse x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Soul Crusher",
+    "Attack": 372,
+    "Accuracy": 88,
+    "Effect": "+Exhaustion (low odds)",
+    "Price": "¥63,600",
+    "Materials": "Soul-Death Steel x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Blade of Totsuka",
+    "Attack": 408,
+    "Accuracy": 96,
+    "Effect": "+Critical Rate up (high)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat the Reaper"
+  }
+]

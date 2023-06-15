@@ -6,15 +6,6 @@ from PySide6.QtCore import *
 from PySide6.QtGui import *
 from persona_4_ui import Ui_persona4Window
 
-with open('./data/persona_4_golden_answers.json', 'r') as answerData:
-    goldenAnswers = json.load(answerData)
-
-with open('./data/persona_4_golden_quest.json', 'r') as questData:
-    goldenQuests = json.load(questData)
-
-with open('./data/persona_4_golden_shadows.json', 'r') as shadowsData:
-    goldenShadows = json.load(shadowsData)
-
 class ElementAffinity(Enum):
     Weak = 0,
     NaN = 1,
@@ -50,12 +41,16 @@ class ShadowStats:
         }
 
 class personaApp(QMainWindow, Ui_persona4Window):
+    with open('./data/persona_4_golden_shadows.json', 'r') as shadowsData:
+        goldenShadows = json.load(shadowsData)
+
     def __init__(self):
         super().__init__()
         self.setupUi(self)
         
         self.initializeApp()
         self.initializeButtons()
+        self.initializeWeaponsData()
         self.getQuestsTableData()
         self.getAnswersTableData()
         self.getShadowNames()
@@ -85,10 +80,12 @@ class personaApp(QMainWindow, Ui_persona4Window):
         self.questsHomeBtn.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(0))
         self.answersHomeBtn.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(0))
         self.shadowsHomeBtn.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(0))
+        self.weaponsHomeBtn.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(0))
 
         self.questsBtn_2.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(1))
         self.answersBtn_2.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(2))
         self.shadowsBtn_2.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(3))
+        self.weaponsBtn_2.clicked.connect(lambda: self.mainStackedWidget.setCurrentIndex(4))
 
     def resizeWindow(self):
         self.resize(800, 600)
@@ -97,22 +94,25 @@ class personaApp(QMainWindow, Ui_persona4Window):
         table = self.questsTable
         table.setRowCount(69)
 
-        for index, dictionary in enumerate(goldenQuests):
-            for key, val in dictionary.items():
-                if key == 'Quest':
-                    table.setItem(index, 0, QTableWidgetItem(str(val)))
-                elif key == 'Quest Giver':
-                    table.setItem(index, 1, QTableWidgetItem(str(val)))
-                elif key == 'Available':
-                    table.setItem(index, 2, QTableWidgetItem(str(val)))
-                elif key == 'Reward':
-                    table.setItem(index, 3, QTableWidgetItem(str(val)))
-                elif key == 'Remarks':
-                    table.setItem(index, 4, QTableWidgetItem(str(val)))
+        with open('./data/persona_4_golden_quest.json', 'r') as questData:
+            goldenQuests = json.load(questData)
+            
+            for index, dictionary in enumerate(goldenQuests):
+                for key, val in dictionary.items():
+                    if key == 'Quest':
+                        table.setItem(index, 0, QTableWidgetItem(str(val)))
+                    elif key == 'Quest Giver':
+                        table.setItem(index, 1, QTableWidgetItem(str(val)))
+                    elif key == 'Available':
+                        table.setItem(index, 2, QTableWidgetItem(str(val)))
+                    elif key == 'Reward':
+                        table.setItem(index, 3, QTableWidgetItem(str(val)))
+                    elif key == 'Remarks':
+                        table.setItem(index, 4, QTableWidgetItem(str(val)))
 
-        for row in range(0, 69):
-            for column in range(0, 5):
-                table.item(row, column).setFont(QFont('Inter', 12))
+            for row in range(0, 69):
+                for column in range(0, 5):
+                    table.item(row, column).setFont(QFont('Inter', 12))
 
         table.verticalHeader().setVisible(True)
         table.horizontalHeader().setVisible(True)
@@ -122,18 +122,21 @@ class personaApp(QMainWindow, Ui_persona4Window):
         table = self.answersTable
         table.setRowCount(94)
 
-        for index, dictionary in enumerate(goldenAnswers):
-            for key, val in dictionary.items():
-                if key == 'dateAsked':
-                    table.setItem(index, 0, QTableWidgetItem(str(val)))
-                elif key == 'questionAsked':
-                    table.setItem(index, 1, QTableWidgetItem(str(val)))
-                elif key == 'questionAnswer':
-                    table.setItem(index, 2, QTableWidgetItem(str(val)))
+        with open('./data/persona_4_golden_answers.json', 'r') as answerData:
+            goldenAnswers = json.load(answerData)
 
-        for row in range(0, 94):
-            for column in range(0, 3):
-                table.item(row, column).setFont(QFont('Inter', 12))
+            for index, dictionary in enumerate(goldenAnswers):
+                for key, val in dictionary.items():
+                    if key == 'dateAsked':
+                        table.setItem(index, 0, QTableWidgetItem(str(val)))
+                    elif key == 'questionAsked':
+                        table.setItem(index, 1, QTableWidgetItem(str(val)))
+                    elif key == 'questionAnswer':
+                        table.setItem(index, 2, QTableWidgetItem(str(val)))
+
+            for row in range(0, 94):
+                for column in range(0, 3):
+                    table.item(row, column).setFont(QFont('Inter', 12))
 
         table.verticalHeader().setVisible(False)
         table.horizontalHeader().setVisible(True)
@@ -156,7 +159,7 @@ class personaApp(QMainWindow, Ui_persona4Window):
     def getShadowData(self):
         listWidget = self.shadowsList
 
-        shadowInfos = goldenShadows[listWidget.currentRow()]
+        shadowInfos = self.goldenShadows[listWidget.currentRow()]
         skillCount = len(shadowInfos['skills'])
 
         nameLvlStr = '{name} - Level {level}'.format(**shadowInfos)
@@ -197,7 +200,7 @@ class personaApp(QMainWindow, Ui_persona4Window):
     def getShadowNames(self):
         listWidget = self.shadowsList
 
-        for shadow in goldenShadows:
+        for shadow in self.goldenShadows:
             for key, val in shadow.items():
                 if key == 'name':
                     listWidget.addItem(
@@ -205,6 +208,41 @@ class personaApp(QMainWindow, Ui_persona4Window):
                     )
 
         listWidget.itemClicked.connect(lambda: self.getShadowData())
+
+    def getWeaponsData(self, table: QTableWidget, rowCount: int, file: str):
+        table.setRowCount(rowCount)
+
+        with open(f'./data/{file}', 'r') as data:
+            fileData = json.load(data)
+
+            for index, dictionary in enumerate(fileData):
+                for key, val in dictionary.items():
+                    if key == 'Weapon':
+                        table.setItem(index, 0, QTableWidgetItem(str(val)))
+                    elif key == 'Attack':
+                        table.setItem(index, 1, QTableWidgetItem(str(val)))
+                    elif key == 'Accuracy':
+                        table.setItem(index, 2, QTableWidgetItem(str(val)))
+                    elif key == 'Effect':
+                        table.setItem(index, 3, QTableWidgetItem(str(val)))
+            
+            for row in range(0, rowCount):
+                for column in range(0, 4):
+                    table.item(row, column).setFont(QFont('Inter', 12))
+            
+        table.verticalHeader().setVisible(True)
+        table.horizontalHeader().setVisible(True)
+        table.resizeRowsToContents()
+
+    def initializeWeaponsData(self):
+        self.getWeaponsData(self.mcWeaponsTable, 34, "weapons/golden_mc.json")
+        self.getWeaponsData(self.yosukeWeaponsTable, 31, "weapons/golden_yosuke.json")
+        self.getWeaponsData(self.chieWeaponsTable, 30, "weapons/golden_chie.json")
+        self.getWeaponsData(self.yosukeWeaponsTable, 31, "weapons/golden_yosuke.json")
+        self.getWeaponsData(self.yukikoWeaponsTable, 27, "weapons/golden_yukiko.json")
+        self.getWeaponsData(self.kanjiWeaponsTable, 25, "weapons/golden_kanji.json")
+        self.getWeaponsData(self.teddieWeaponsTable, 21, "weapons/golden_teddie.json")
+        self.getWeaponsData(self.naotoWeaponsTable, 14, "weapons/golden_naoto.json")
 
 
 

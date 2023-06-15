@@ -1,0 +1,200 @@
+[
+  {
+    "Weapon": "Spikey Punch",
+    "Attack": 44,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Default"
+  },
+  {
+    "Weapon": "Mewling Claw",
+    "Attack": 154,
+    "Accuracy": 86,
+    "Effect": "+4 Agility",
+    "Price": "¥26,000",
+    "Materials": "-",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Bear Claw",
+    "Attack": 161,
+    "Accuracy": 78,
+    "Effect": "+Counter phys (low odds)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat Momentary Child - Marukyu Striptease"
+  },
+  {
+    "Weapon": "Drunken Fist",
+    "Attack": 172,
+    "Accuracy": 98,
+    "Effect": "+Exhaustion (med odds)",
+    "Price": "¥30,000",
+    "Materials": "Shiny Scale x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Cute Assassin",
+    "Attack": 180,
+    "Accuracy": 95,
+    "Effect": "+5 Strength",
+    "Price": "-",
+    "Materials": "Red Goldfish x6",
+    "Location": "Riverbed - Trade (August)"
+  },
+  {
+    "Weapon": "Fuuma Bundou",
+    "Attack": 190,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥27,800",
+    "Materials": "-",
+    "Location": "Shopping Network (September 11)"
+  },
+  {
+    "Weapon": "Typhoon Claw",
+    "Attack": 200,
+    "Accuracy": 70,
+    "Effect": "+Fear (high odds)",
+    "Price": "¥32,800",
+    "Materials": "2nd Boy's Talc x1",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Air Break",
+    "Attack": 205,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥36,800",
+    "Materials": "Sharp Premolar x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Poison Claw",
+    "Attack": 218,
+    "Accuracy": 84,
+    "Effect": "+Poison (high odds)",
+    "Price": "¥37,200",
+    "Materials": "Venomous Fang x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Mail Duster",
+    "Attack": 232,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥40,000",
+    "Materials": "Guard Stationary x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Assault Spike",
+    "Attack": 240,
+    "Accuracy": 93,
+    "Effect": "-",
+    "Price": "¥41,200",
+    "Materials": "Claw of Myth x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Gehenna Claw",
+    "Attack": 254,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥43,600",
+    "Materials": "Thirsty Claw x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Chain Glove",
+    "Attack": 271,
+    "Accuracy": 87,
+    "Effect": "-",
+    "Price": "¥46,000",
+    "Materials": "Blade Thorn x8",
+    "Location": ""
+  },
+  {
+    "Weapon": "Strega Claw",
+    "Attack": 300,
+    "Accuracy": 74,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Locked chest - Heaven"
+  },
+  {
+    "Weapon": "Pure Assassin",
+    "Attack": 300,
+    "Accuracy": 75,
+    "Effect": "+Poison (med odds)",
+    "Price": "¥29,800",
+    "Materials": "-",
+    "Location": "Shopping Network (October 23)"
+  },
+  {
+    "Weapon": "Needle Spike",
+    "Attack": 322,
+    "Accuracy": 86,
+    "Effect": "+Rage (high odds)",
+    "Price": "¥54,800",
+    "Materials": "Queen's Nail x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Seiryu Claw",
+    "Attack": 334,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥56,800",
+    "Materials": "Silver Claw x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Jakotsu Claw",
+    "Attack": 345,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥58,800",
+    "Materials": "Strength Claw x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Platinum Claw",
+    "Attack": 358,
+    "Accuracy": 96,
+    "Effect": "+3 Endurance",
+    "Price": "¥60,000",
+    "Materials": "Force Rock x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "The Ripper",
+    "Attack": 365,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥62,000",
+    "Materials": "Bloody Thorn x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Shitisei Jakotsu",
+    "Attack": 371,
+    "Accuracy": 96,
+    "Effect": "+4 Magic",
+    "Price": "¥62,800",
+    "Materials": "Mysterious Eye x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Seireiga",
+    "Attack": 406,
+    "Accuracy": 94,
+    "Effect": "+Reduce spell damage 30%",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat the Reaper with Teddie in the party."
+  }
+]

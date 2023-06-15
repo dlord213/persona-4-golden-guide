@@ -1,0 +1,236 @@
+[
+    {
+      "Weapon": "Folding Chair",
+      "Attack": 45,
+      "Accuracy": 95,
+      "Effect": "-",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Default"
+    },
+    {
+      "Weapon": "Yasogami Desk",
+      "Attack": 92,
+      "Accuracy": 90,
+      "Effect": "-",
+      "Price": "¥16,000",
+      "Materials": "-",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Iron Plate",
+      "Attack": 113,
+      "Accuracy": 92,
+      "Effect": "+2 Magic",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Defeat secret boss - Steamy Bathhouse"
+    },
+    {
+      "Weapon": "Steel Plate",
+      "Attack": 142,
+      "Accuracy": 90,
+      "Effect": "-",
+      "Price": "¥24,400",
+      "Materials": "Heavy Iron Lump x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Photon Plate",
+      "Attack": 158,
+      "Accuracy": 90,
+      "Effect": "-",
+      "Price": "¥28,000",
+      "Materials": "Steel Collar x10}",
+      "Location": ""
+    },
+    {
+      "Weapon": "Hard Board",
+      "Attack": 162,
+      "Accuracy": 92,
+      "Effect": "+Reduce Fire damage 20%",
+      "Price": "¥28,800",
+      "Materials": "Dependent Iron x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Thunder Plate",
+      "Attack": 172,
+      "Accuracy": 96,
+      "Effect": "+25% Elec damage",
+      "Price": "¥30,000",
+      "Materials": "Electric Rock x6",
+      "Location": ""
+    },
+    {
+      "Weapon": "Power Plate",
+      "Attack": 180,
+      "Accuracy": 92,
+      "Effect": "+3 Strength",
+      "Price": "¥31,200",
+      "Materials": "Chirping Wings x10",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Alloyed Plate",
+      "Attack": 192,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥33,000",
+      "Materials": "Super-Alloy x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Bath Lid",
+      "Attack": 198,
+      "Accuracy": 55,
+      "Effect": "+Rage (med odds)",
+      "Price": "-",
+      "Materials": "Huge Fish x1",
+      "Location": "Riverbed - Trade (July)"
+    },
+    {
+      "Weapon": "Gorgon Plate",
+      "Attack": 205,
+      "Accuracy": 94,
+      "Effect": "+Resist Fear",
+      "Price": "¥35,200",
+      "Materials": "Source Lump x4",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Scutum",
+      "Attack": 220,
+      "Accuracy": 90,
+      "Effect": "-",
+      "Price": "¥38,000",
+      "Materials": "Illusionary Sand x6",
+      "Location": ""
+    },
+    {
+      "Weapon": "Barbarian Shield",
+      "Attack": 235,
+      "Accuracy": 94,
+      "Effect": "+30 HP",
+      "Price": "¥40,000",
+      "Materials": "Platinum Lump x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Golden Plate",
+      "Attack": 246,
+      "Accuracy": 96,
+      "Effect": "-",
+      "Price": "¥42,000",
+      "Materials": "Fixed Lump x10",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Demon Shield",
+      "Attack": 252,
+      "Accuracy": 92,
+      "Effect": "+4 Endurance",
+      "Price": "¥43,200",
+      "Materials": "Jet Black Steel x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Death Scudetto",
+      "Attack": 260,
+      "Accuracy": 50,
+      "Effect": "+2 Luck",
+      "Price": "¥28,800",
+      "Materials": "-",
+      "Location": "Locked chest - Secret Laboratory\nShopping Network (September 25)"
+    },
+    {
+      "Weapon": "Mega Buckler",
+      "Attack": 264,
+      "Accuracy": 94,
+      "Effect": "+Critical Rate up (med)",
+      "Price": "¥45,200",
+      "Materials": "Divine Bark x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Oni-Gawara",
+      "Attack": 280,
+      "Accuracy": 88,
+      "Effect": "-",
+      "Price": "¥45,200",
+      "Materials": "Heavy Chains x8",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Sol Breaker",
+      "Attack": 318,
+      "Accuracy": 96,
+      "Effect": "+Reduce Fire damage 10%",
+      "Price": "¥54,000",
+      "Materials": "Dignified Lump x4",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Phalanx",
+      "Attack": 322,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥54,800",
+      "Materials": "Scaly Lump x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Asturias",
+      "Attack": 332,
+      "Accuracy": 96,
+      "Effect": "-",
+      "Price": "¥56,400",
+      "Materials": "Death Lump x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Black Targe",
+      "Attack": 346,
+      "Accuracy": 92,
+      "Effect": "-",
+      "Price": "¥58,800",
+      "Materials": "Golden Chains x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Aegis Shield",
+      "Attack": 357,
+      "Accuracy": 94,
+      "Effect": "+10 Endurance",
+      "Price": "¥60,000",
+      "Materials": "Platinum Shell x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Dullahan",
+      "Attack": 368,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥62,000",
+      "Materials": "Holy Gold Lump x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Christ Mirror",
+      "Attack": 382,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥64,000",
+      "Materials": "Platinum Gear x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Perun Plate",
+      "Attack": 432,
+      "Accuracy": 92,
+      "Effect": "+25% Elec damage",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Defeat the Reaper with Kanji in the party."
+    }
+   ]

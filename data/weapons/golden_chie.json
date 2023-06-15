@@ -1,0 +1,281 @@
+[
+  {
+    "Weapon": "Leather Shoes",
+    "Attack": 38,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Default"
+  },
+  {
+    "Weapon": "Platform Sneaks",
+    "Attack": 45,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥7,600",
+    "Materials": "-",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Shield Boots",
+    "Attack": 62,
+    "Accuracy": 92,
+    "Effect": "+2 Endurance",
+    "Price": "¥11,200",
+    "Materials": "Hard Horn x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Nanman Gusoku",
+    "Attack": 75,
+    "Accuracy": 92,
+    "Effect": "+1 Agility",
+    "Price": "¥13,600",
+    "Materials": "Golden Dish x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Punk Shoes",
+    "Attack": 92,
+    "Accuracy": 92,
+    "Effect": "+Rage (low odds)",
+    "Price": "¥20,000",
+    "Materials": "Tough Hide x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Hard Boots",
+    "Attack": 108,
+    "Accuracy": 90,
+    "Effect": "+2 Strength",
+    "Price": "¥21,200",
+    "Materials": "Thick Hide x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Adios Shoes",
+    "Attack": 110,
+    "Accuracy": 82,
+    "Effect": "+3 Agility",
+    "Price": "¥5,980",
+    "Materials": "-",
+    "Location": "Shopping Network (May 22)"
+  },
+  {
+    "Weapon": "Kintabi Gusoku",
+    "Attack": 125,
+    "Accuracy": 70,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Locked chest - Steamy Bathhouse"
+  },
+  {
+    "Weapon": "Skill Greaves",
+    "Attack": 133,
+    "Accuracy": 90,
+    "Effect": "+1 to all stats",
+    "Price": "¥25,600",
+    "Materials": "Rubbery Object x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Cowboy Boots",
+    "Attack": 150,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥26,800",
+    "Materials": "Sturdy Molar x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Heavy Heels",
+    "Attack": 167,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥28,400",
+    "Materials": "Wrought Lamp x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Bishamonten",
+    "Attack": 182,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥31,600",
+    "Materials": "Jet Black Scale x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Furinkazan",
+    "Attack": 193,
+    "Accuracy": 98,
+    "Effect": "+Enervate (high odds)",
+    "Price": "¥33,200",
+    "Materials": "Platinum Crown x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Steel Slippers",
+    "Attack": 199,
+    "Accuracy": 87,
+    "Effect": "+2 to all stats",
+    "Price": "-",
+    "Materials": "Amber Seema x8",
+    "Location": "Riverbed - Trade (September)"
+  },
+  {
+    "Weapon": "Bucking Broncos",
+    "Attack": 205,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥35,600",
+    "Materials": "Stone Hide x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Sleipnir",
+    "Attack": 218,
+    "Accuracy": 92,
+    "Effect": "+5 Agility",
+    "Price": "¥37,200",
+    "Materials": "Stretchy Object x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Amami Legs",
+    "Attack": 220,
+    "Accuracy": 80,
+    "Effect": "Counter phys (high odds)",
+    "Price": "¥32,800",
+    "Materials": "Curious Boulder x1",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Four Beasts",
+    "Attack": 225,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥38,000",
+    "Materials": "Riveted Hide x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Vampire Shoes",
+    "Attack": 243,
+    "Accuracy": 94,
+    "Effect": "+Fear (med odds)",
+    "Price": "¥41,200",
+    "Materials": "Crimson Cover x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Mjolnir Boots",
+    "Attack": 253,
+    "Accuracy": 92,
+    "Effect": "+Critical Rate up (med)",
+    "Price": "¥43,600",
+    "Materials": "Cursed Stone x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Nice Shoes",
+    "Attack": 260,
+    "Accuracy": 78,
+    "Effect": "+Evade phys (med)",
+    "Price": "¥28,800\n¥19,800",
+    "Materials": "-",
+    "Location": "Shopping Network (October 9)\nShopping Network (November 13)"
+  },
+  {
+    "Weapon": "Vidar's Boots",
+    "Attack": 264,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥45,200",
+    "Materials": "Bloody Hide x8",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Demon Boots",
+    "Attack": 296,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥50,000",
+    "Materials": "Miracle Scale x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Hero Legs",
+    "Attack": 300,
+    "Accuracy": 92,
+    "Effect": "+4 Luck",
+    "Price": "¥51,200",
+    "Materials": "Snow Stone x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Kehaya",
+    "Attack": 310,
+    "Accuracy": 94,
+    "Effect": "+3 Magic",
+    "Price": "¥52,000",
+    "Materials": "Prime Hide x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Gigant Fall",
+    "Attack": 325,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥55,200",
+    "Materials": "Platinum Hide x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Peerless Heels",
+    "Attack": 338,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥57,600",
+    "Materials": "Love Scale x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Judgment Boots",
+    "Attack": 349,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥59,000",
+    "Materials": "Death Sentence x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Stella Greaves",
+    "Attack": 362,
+    "Accuracy": 96,
+    "Effect": "+5 Strength",
+    "Price": "¥61,200",
+    "Materials": "Tyrannical Hide x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Red-Leaf Gusoku",
+    "Attack": 380,
+    "Accuracy": 70,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "Genji Ayu x10",
+    "Location": "Riverbed - Trade (November)"
+  },
+  {
+    "Weapon": "Moses Sandals",
+    "Attack": 412,
+    "Accuracy": 95,
+    "Effect": "+Critical Rate up (high)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat the Reaper with Chie in the party."
+  }
+]

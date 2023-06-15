@@ -1,0 +1,137 @@
+[
+  {
+    "Weapon": "Nambu 2",
+    "Attack": 80,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Default"
+  },
+  {
+    "Weapon": "Peacemaker",
+    "Attack": 180,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥32,800",
+    "Materials": "-",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Raging Bull",
+    "Attack": 220,
+    "Accuracy": 88,
+    "Effect": "-",
+    "Price": "¥38,000",
+    "Materials": "Steel Barrel x2",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Algernon",
+    "Attack": 230,
+    "Accuracy": 85,
+    "Effect": "+5 to all stats",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat Extreme Vessel - Secret Laboratory"
+  },
+  {
+    "Weapon": "Crimson Dirge",
+    "Attack": 240,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥42,000",
+    "Materials": "Fixing Bolt x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": ".44 Anaconda",
+    "Attack": 246,
+    "Accuracy": 94,
+    "Effect": "-",
+    "Price": "¥43,200",
+    "Materials": "Judgement Shot x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Chrome Heart",
+    "Attack": 275,
+    "Accuracy": 95,
+    "Effect": "+Silence (med odds)",
+    "Price": "¥46,800",
+    "Materials": "Orb of Love x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Jovian Thunder",
+    "Attack": 290,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥49,200",
+    "Materials": "Gold Signature x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Unlimited",
+    "Attack": 301,
+    "Accuracy": 95,
+    "Effect": "+3 Luck",
+    "Price": "¥50,000",
+    "Materials": "Thunder Bead x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Camel Red",
+    "Attack": 310,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥52,800",
+    "Materials": "Golden Barrel x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "From Zero",
+    "Attack": 325,
+    "Accuracy": 96,
+    "Effect": "+Critical Rate up (low)",
+    "Price": "¥56,000",
+    "Materials": "Prophecy Orb x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Athena Kiss R",
+    "Attack": 342,
+    "Accuracy": 95,
+    "Effect": "+Confuse (med odds)",
+    "Price": "¥58,800",
+    "Materials": "Pure White Bead x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Judge of Hell",
+    "Attack": 360,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥62,800",
+    "Materials": "Bull's-Eye Shot x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Magatsu Kiba",
+    "Attack": 370,
+    "Accuracy": 74,
+    "Effect": "+Fear (high odds)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Locked chest - Magatsu Inaba"
+  },
+  {
+    "Weapon": "Black Hole",
+    "Attack": 406,
+    "Accuracy": 96,
+    "Effect": "+All ailments (high)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat the Reaper with Naoto in the party."
+  }
+]

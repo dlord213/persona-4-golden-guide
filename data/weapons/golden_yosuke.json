@@ -1,0 +1,290 @@
+[
+  {
+    "Weapon": "Monkey Wrench",
+    "Attack": 40,
+    "Accuracy": 90,
+    "Effect": "-",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Default"
+  },
+  {
+    "Weapon": "Hunting Nata",
+    "Attack": 48,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥4,000",
+    "Materials": "-",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Kunai",
+    "Attack": 55,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥11,800",
+    "Materials": "Light Iron x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Poison Kunai",
+    "Attack": 64,
+    "Accuracy": 92,
+    "Effect": "+Poison (low odds)",
+    "Price": "¥12,000",
+    "Materials": "Poison Flower x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Skill Spanner",
+    "Attack": 83,
+    "Accuracy": 86,
+    "Effect": "+50 SP",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Twisted Shopping District (May 1)"
+  },
+  {
+    "Weapon": "Reign Skinner",
+    "Attack": 80,
+    "Accuracy": 98,
+    "Effect": "+All ailments (high)",
+    "Price": "¥18,000",
+    "Materials": "4th Girl's Talc x1",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Santou",
+    "Attack": 95,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥19,600",
+    "Materials": "Gray Shackle x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Kozuka",
+    "Attack": 122,
+    "Accuracy": 93,
+    "Effect": "-",
+    "Price": "¥22,000",
+    "Materials": "Hard Rock x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Throwing Kunai",
+    "Attack": 138,
+    "Accuracy": 98,
+    "Effect": "+2 Agility",
+    "Price": "¥24,000",
+    "Materials": "Haori Iron x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Kitchen Knife",
+    "Attack": 140,
+    "Accuracy": 90,
+    "Effect": "+10 Strength",
+    "Price": "¥11,800\n¥12,800",
+    "Materials": "-",
+    "Location": "Shopping Network (July 24)\nShopping Network (August 7)"
+  },
+  {
+    "Weapon": "Kris Naga",
+    "Attack": 146,
+    "Accuracy": 94,
+    "Effect": "+30 SP",
+    "Price": "¥25,600",
+    "Materials": "Sharp Thorn x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Kaiken",
+    "Attack": 153,
+    "Accuracy": 93,
+    "Effect": "-",
+    "Price": "¥26,400",
+    "Materials": "Steel Thorn x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Yashioori Dagger",
+    "Attack": 158,
+    "Accuracy": 88,
+    "Effect": "+Confuse/Panic (low odds)",
+    "Price": "¥26,900",
+    "Materials": "Alluring Lily x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Bashin",
+    "Attack": 168,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥28,000",
+    "Materials": "Alloy Signature x6",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Thief Dagger",
+    "Attack": 170,
+    "Accuracy": 74,
+    "Effect": "-",
+    "Price": "¥20,800",
+    "Materials": "-",
+    "Location": "Locked chest - Void Quest\nShopping Network (August 28)"
+  },
+  {
+    "Weapon": "Yashima",
+    "Attack": 174,
+    "Accuracy": 98,
+    "Effect": "-",
+    "Price": "¥30,000",
+    "Materials": "Trial Obsidian x10",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "En-Giri",
+    "Attack": 188,
+    "Accuracy": 96,
+    "Effect": "+Fear (low odds)",
+    "Price": "¥32,000",
+    "Materials": "Iron Barrel x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Fearful Kunai",
+    "Attack": 203,
+    "Accuracy": 92,
+    "Effect": "-",
+    "Price": "¥34,000",
+    "Materials": "Shining Dish x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Bloody Kunai",
+    "Attack": 216,
+    "Accuracy": 94,
+    "Effect": "+25% Wind damage",
+    "Price": "¥37,600",
+    "Materials": "1st Boy's Talc x1",
+    "Location": ""
+  },
+  {
+    "Weapon": "Castilla Knife",
+    "Attack": 222,
+    "Accuracy": 98,
+    "Effect": "+3 Endurance",
+    "Price": "¥38,000",
+    "Materials": "Black Sheet x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Titanium Wrench",
+    "Attack": 233,
+    "Accuracy": 80,
+    "Effect": "+1 Strength",
+    "Price": "-",
+    "Materials": "Huge Fish x4",
+    "Location": "Riverbed - Trade (October)"
+  },
+  {
+    "Weapon": "Ohorinomikoto",
+    "Attack": 238,
+    "Accuracy": 96,
+    "Effect": "+Reduce Fire damage 30%",
+    "Price": "¥40,000",
+    "Materials": "Flame Scale x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Flying Kato",
+    "Attack": 240,
+    "Accuracy": 94,
+    "Effect": "+Critical Rate up (med)",
+    "Price": "¥41,600",
+    "Materials": "Treasure Cloth x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Basho",
+    "Attack": 252,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥43,600",
+    "Materials": "Perpetual Edge x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Fuuma Kotaro",
+    "Attack": 280,
+    "Accuracy": 98,
+    "Effect": "+5 Magic",
+    "Price": "¥48,000",
+    "Materials": "Nightmare Sand x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Militia Dagger",
+    "Attack": 294,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥50,000",
+    "Materials": "Unthinkable Metal x4",
+    "Location": "Daidara Metalworks"
+  },
+  {
+    "Weapon": "Hattori",
+    "Attack": 311,
+    "Accuracy": 98,
+    "Effect": "+3 to all stats",
+    "Price": "¥52,000",
+    "Materials": "Knowledge Staff x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Blitz Knife",
+    "Attack": 320,
+    "Accuracy": 86,
+    "Effect": "-",
+    "Price": "¥54,000",
+    "Materials": "Cruel Thorn x6",
+    "Location": ""
+  },
+  {
+    "Weapon": "Ogre Tooth",
+    "Attack": 336,
+    "Accuracy": 95,
+    "Effect": "-",
+    "Price": "¥57,600",
+    "Materials": "Mobius Sand x4",
+    "Location": ""
+  },
+  {
+    "Weapon": "Rappa",
+    "Attack": 350,
+    "Accuracy": 96,
+    "Effect": "-",
+    "Price": "¥59,600",
+    "Materials": "Sephirot Staff x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Kashin Koji",
+    "Attack": 361,
+    "Accuracy": 96,
+    "Effect": "+All ailments (med)",
+    "Price": "¥61,600",
+    "Materials": "Vengeance Steel x10",
+    "Location": ""
+  },
+  {
+    "Weapon": "Malakh",
+    "Attack": 398,
+    "Accuracy": 98,
+    "Effect": "+Evade phys (high)",
+    "Price": "-",
+    "Materials": "-",
+    "Location": "Defeat the Reaper with Yosuke in the party."
+  }
+]

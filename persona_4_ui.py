@@ -18,8 +18,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QAbstractItemView, QAbstractScrollArea, QApplication, QFrame,
     QGridLayout, QHBoxLayout, QHeaderView, QLabel,
     QListWidget, QListWidgetItem, QMainWindow, QPushButton,
-    QSizePolicy, QStackedWidget, QTableWidget, QTableWidgetItem,
-    QVBoxLayout, QWidget)
+    QSizePolicy, QStackedWidget, QTabWidget, QTableWidget,
+    QTableWidgetItem, QVBoxLayout, QWidget)
 
 class Ui_persona4Window(object):
     def setupUi(self, persona4Window):
@@ -169,6 +169,15 @@ class Ui_persona4Window(object):
 
         self.verticalLayout_5.addWidget(self.questsBtn_2)
 
+        self.weaponsBtn_2 = QPushButton(self.goldenFrame)
+        self.weaponsBtn_2.setObjectName(u"weaponsBtn_2")
+        sizePolicy3.setHeightForWidth(self.weaponsBtn_2.sizePolicy().hasHeightForWidth())
+        self.weaponsBtn_2.setSizePolicy(sizePolicy3)
+        self.weaponsBtn_2.setFont(font4)
+        self.weaponsBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
+
+        self.verticalLayout_5.addWidget(self.weaponsBtn_2)
+
         self.answersBtn_2 = QPushButton(self.goldenFrame)
         self.answersBtn_2.setObjectName(u"answersBtn_2")
         sizePolicy3.setHeightForWidth(self.answersBtn_2.sizePolicy().hasHeightForWidth())
@@ -187,24 +196,6 @@ class Ui_persona4Window(object):
         self.shadowsBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
 
         self.verticalLayout_5.addWidget(self.shadowsBtn_2)
-
-        self.socialLinksBtn_2 = QPushButton(self.goldenFrame)
-        self.socialLinksBtn_2.setObjectName(u"socialLinksBtn_2")
-        sizePolicy3.setHeightForWidth(self.socialLinksBtn_2.sizePolicy().hasHeightForWidth())
-        self.socialLinksBtn_2.setSizePolicy(sizePolicy3)
-        self.socialLinksBtn_2.setFont(font4)
-        self.socialLinksBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
-
-        self.verticalLayout_5.addWidget(self.socialLinksBtn_2)
-
-        self.tipsBtn_2 = QPushButton(self.goldenFrame)
-        self.tipsBtn_2.setObjectName(u"tipsBtn_2")
-        sizePolicy3.setHeightForWidth(self.tipsBtn_2.sizePolicy().hasHeightForWidth())
-        self.tipsBtn_2.setSizePolicy(sizePolicy3)
-        self.tipsBtn_2.setFont(font4)
-        self.tipsBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
-
-        self.verticalLayout_5.addWidget(self.tipsBtn_2)
 
 
         self.horizontalLayout.addWidget(self.goldenFrame)
@@ -1064,6 +1055,386 @@ class Ui_persona4Window(object):
         self.verticalLayout_8.addWidget(self.infoFrame_3)
 
         self.mainStackedWidget.addWidget(self.shadowsPage)
+        self.weaponsPage = QWidget()
+        self.weaponsPage.setObjectName(u"weaponsPage")
+        self.weaponsPage.setStyleSheet(u"QFrame#infoFrame_4 {\n"
+"	background-color: #FFD100;\n"
+"	border-top-left-radius: 12px;\n"
+"	border-top-right-radius: 12px;\n"
+"}\n"
+"QPushButton {\n"
+"	background-color: #fff6cc;\n"
+"	color: #333533;\n"
+"	padding: 12px 12px 12px 12px;\n"
+"	border-radius: 12px;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: #333533;\n"
+"	color: white;\n"
+"	border: 2px solid white;\n"
+"}")
+        self.verticalLayout_41 = QVBoxLayout(self.weaponsPage)
+        self.verticalLayout_41.setSpacing(0)
+        self.verticalLayout_41.setObjectName(u"verticalLayout_41")
+        self.verticalLayout_41.setContentsMargins(0, 0, 0, 0)
+        self.headerFrame_5 = QFrame(self.weaponsPage)
+        self.headerFrame_5.setObjectName(u"headerFrame_5")
+        sizePolicy4.setHeightForWidth(self.headerFrame_5.sizePolicy().hasHeightForWidth())
+        self.headerFrame_5.setSizePolicy(sizePolicy4)
+        self.headerFrame_5.setStyleSheet(u"QFrame#headerFrame_5 {\n"
+"	background-color: #FFEE32;\n"
+"}\n"
+"QLabel {\n"
+"	border-radius: 12px;\n"
+"}")
+        self.headerFrame_5.setFrameShape(QFrame.NoFrame)
+        self.headerFrame_5.setFrameShadow(QFrame.Plain)
+        self.horizontalLayout_9 = QHBoxLayout(self.headerFrame_5)
+        self.horizontalLayout_9.setSpacing(0)
+        self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
+        self.horizontalLayout_9.setContentsMargins(9, 9, 9, 9)
+        self.headingLbl_7 = QLabel(self.headerFrame_5)
+        self.headingLbl_7.setObjectName(u"headingLbl_7")
+        self.headingLbl_7.setFont(font1)
+
+        self.horizontalLayout_9.addWidget(self.headingLbl_7)
+
+        self.headerInfoFrame_4 = QFrame(self.headerFrame_5)
+        self.headerInfoFrame_4.setObjectName(u"headerInfoFrame_4")
+        sizePolicy5.setHeightForWidth(self.headerInfoFrame_4.sizePolicy().hasHeightForWidth())
+        self.headerInfoFrame_4.setSizePolicy(sizePolicy5)
+        self.headerInfoFrame_4.setFrameShape(QFrame.NoFrame)
+        self.headerInfoFrame_4.setFrameShadow(QFrame.Plain)
+        self.verticalLayout_22 = QVBoxLayout(self.headerInfoFrame_4)
+        self.verticalLayout_22.setObjectName(u"verticalLayout_22")
+        self.verticalLayout_22.setContentsMargins(0, 0, 0, 0)
+        self.weaponsHomeBtn = QPushButton(self.headerInfoFrame_4)
+        self.weaponsHomeBtn.setObjectName(u"weaponsHomeBtn")
+        sizePolicy6.setHeightForWidth(self.weaponsHomeBtn.sizePolicy().hasHeightForWidth())
+        self.weaponsHomeBtn.setSizePolicy(sizePolicy6)
+        self.weaponsHomeBtn.setFont(font2)
+        self.weaponsHomeBtn.setCursor(QCursor(Qt.PointingHandCursor))
+
+        self.verticalLayout_22.addWidget(self.weaponsHomeBtn)
+
+        self.bodyLbl_5 = QLabel(self.headerInfoFrame_4)
+        self.bodyLbl_5.setObjectName(u"bodyLbl_5")
+        sizePolicy.setHeightForWidth(self.bodyLbl_5.sizePolicy().hasHeightForWidth())
+        self.bodyLbl_5.setSizePolicy(sizePolicy)
+        self.bodyLbl_5.setFont(font2)
+        self.bodyLbl_5.setStyleSheet(u"background-color: grey;\n"
+"color: white;\n"
+"padding: 4px 4px 4px 4px;")
+
+        self.verticalLayout_22.addWidget(self.bodyLbl_5)
+
+
+        self.horizontalLayout_9.addWidget(self.headerInfoFrame_4)
+
+
+        self.verticalLayout_41.addWidget(self.headerFrame_5)
+
+        self.infoFrame_4 = QFrame(self.weaponsPage)
+        self.infoFrame_4.setObjectName(u"infoFrame_4")
+        sizePolicy7.setHeightForWidth(self.infoFrame_4.sizePolicy().hasHeightForWidth())
+        self.infoFrame_4.setSizePolicy(sizePolicy7)
+        self.infoFrame_4.setStyleSheet(u"QListView {\n"
+"	border-top: 6px solid white;\n"
+"}\n"
+"QListView::item {\n"
+"	background-color: #4D4D4D;\n"
+"	color: white;\n"
+"}\n"
+"QAbstractItemView {\n"
+"	background-color: #333533;\n"
+"}\n"
+"QScrollBar:vertical {\n"
+"	width: 12px;\n"
+"}\n"
+"QScrollBar::handle:vertical {\n"
+"	background: grey;\n"
+"}\n"
+"QScrollBar::sub-line:horizontal {\n"
+"    border: 4px solid grey;\n"
+"    background: white;\n"
+"    width: 20px;\n"
+"    subcontrol-position: left;\n"
+"    subcontrol-origin: margin;\n"
+"}")
+        self.infoFrame_4.setFrameShape(QFrame.NoFrame)
+        self.infoFrame_4.setFrameShadow(QFrame.Plain)
+        self.horizontalLayout_13 = QHBoxLayout(self.infoFrame_4)
+        self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
+        self.weaponsTabWidget = QTabWidget(self.infoFrame_4)
+        self.weaponsTabWidget.setObjectName(u"weaponsTabWidget")
+        self.weaponsTabWidget.setFont(font9)
+        self.weaponsTabWidget.setStyleSheet(u"QFrame {\n"
+"	background-color: #333533;\n"
+"}\n"
+"QLabel {\n"
+"	color: white;\n"
+"}\n"
+"QTableWidget::item {\n"
+"	background-color: #4D4D4D;\n"
+"	color: white;\n"
+"	text-align: center;\n"
+"}\n"
+"QTabWidget::pane {\n"
+"	border: none;\n"
+"}\n"
+"QTabBar::tab {\n"
+"	background-color: #333533;\n"
+"	color: white;\n"
+"}\n"
+"QTabBar::tab:selected, QTabBar::tab:hover {\n"
+"    background-color: #4D4D4D\n"
+"}\n"
+"QTableView {\n"
+"	background-color: #333533;\n"
+"	border-radius: 12px;\n"
+"	gridline-color: white;\n"
+"}\n"
+"QAbstractItemView {\n"
+"	background-color: #333533;\n"
+"}\n"
+"QHeaderView::section {\n"
+"	background-color: #202020;\n"
+"	color: white;\n"
+"}\n"
+"QHeaderView::section:horizontal {\n"
+"	border-top: 6px solid white;\n"
+"}")
+        self.mcTab = QWidget()
+        self.mcTab.setObjectName(u"mcTab")
+        self.horizontalLayout_14 = QHBoxLayout(self.mcTab)
+        self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
+        self.mcWeaponsTable = QTableWidget(self.mcTab)
+        if (self.mcWeaponsTable.columnCount() < 4):
+            self.mcWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem13 = QTableWidgetItem()
+        __qtablewidgetitem13.setFont(font2);
+        self.mcWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem13)
+        __qtablewidgetitem14 = QTableWidgetItem()
+        __qtablewidgetitem14.setFont(font2);
+        self.mcWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem14)
+        __qtablewidgetitem15 = QTableWidgetItem()
+        __qtablewidgetitem15.setFont(font2);
+        self.mcWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem15)
+        __qtablewidgetitem16 = QTableWidgetItem()
+        __qtablewidgetitem16.setFont(font2);
+        self.mcWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem16)
+        self.mcWeaponsTable.setObjectName(u"mcWeaponsTable")
+        self.mcWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.mcWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.mcWeaponsTable.setProperty("showDropIndicator", False)
+        self.mcWeaponsTable.setDragDropOverwriteMode(False)
+        self.mcWeaponsTable.setShowGrid(True)
+        self.mcWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.mcWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.mcWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.horizontalLayout_14.addWidget(self.mcWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.mcTab, "")
+        self.yosukeTab = QWidget()
+        self.yosukeTab.setObjectName(u"yosukeTab")
+        self.verticalLayout_23 = QVBoxLayout(self.yosukeTab)
+        self.verticalLayout_23.setObjectName(u"verticalLayout_23")
+        self.yosukeWeaponsTable = QTableWidget(self.yosukeTab)
+        if (self.yosukeWeaponsTable.columnCount() < 4):
+            self.yosukeWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem17 = QTableWidgetItem()
+        __qtablewidgetitem17.setFont(font2);
+        self.yosukeWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem17)
+        __qtablewidgetitem18 = QTableWidgetItem()
+        __qtablewidgetitem18.setFont(font2);
+        self.yosukeWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem18)
+        __qtablewidgetitem19 = QTableWidgetItem()
+        __qtablewidgetitem19.setFont(font2);
+        self.yosukeWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem19)
+        __qtablewidgetitem20 = QTableWidgetItem()
+        __qtablewidgetitem20.setFont(font2);
+        self.yosukeWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem20)
+        self.yosukeWeaponsTable.setObjectName(u"yosukeWeaponsTable")
+        self.yosukeWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.yosukeWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.yosukeWeaponsTable.setProperty("showDropIndicator", False)
+        self.yosukeWeaponsTable.setDragDropOverwriteMode(False)
+        self.yosukeWeaponsTable.setShowGrid(True)
+        self.yosukeWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.yosukeWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.yosukeWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_23.addWidget(self.yosukeWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.yosukeTab, "")
+        self.chieTab = QWidget()
+        self.chieTab.setObjectName(u"chieTab")
+        self.verticalLayout_24 = QVBoxLayout(self.chieTab)
+        self.verticalLayout_24.setObjectName(u"verticalLayout_24")
+        self.chieWeaponsTable = QTableWidget(self.chieTab)
+        if (self.chieWeaponsTable.columnCount() < 4):
+            self.chieWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem21 = QTableWidgetItem()
+        __qtablewidgetitem21.setFont(font2);
+        self.chieWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem21)
+        __qtablewidgetitem22 = QTableWidgetItem()
+        __qtablewidgetitem22.setFont(font2);
+        self.chieWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem22)
+        __qtablewidgetitem23 = QTableWidgetItem()
+        __qtablewidgetitem23.setFont(font2);
+        self.chieWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem23)
+        __qtablewidgetitem24 = QTableWidgetItem()
+        __qtablewidgetitem24.setFont(font2);
+        self.chieWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem24)
+        self.chieWeaponsTable.setObjectName(u"chieWeaponsTable")
+        self.chieWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.chieWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.chieWeaponsTable.setProperty("showDropIndicator", False)
+        self.chieWeaponsTable.setDragDropOverwriteMode(False)
+        self.chieWeaponsTable.setShowGrid(True)
+        self.chieWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.chieWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.chieWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_24.addWidget(self.chieWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.chieTab, "")
+        self.yukikoTab = QWidget()
+        self.yukikoTab.setObjectName(u"yukikoTab")
+        self.verticalLayout_25 = QVBoxLayout(self.yukikoTab)
+        self.verticalLayout_25.setObjectName(u"verticalLayout_25")
+        self.yukikoWeaponsTable = QTableWidget(self.yukikoTab)
+        if (self.yukikoWeaponsTable.columnCount() < 4):
+            self.yukikoWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem25 = QTableWidgetItem()
+        __qtablewidgetitem25.setFont(font2);
+        self.yukikoWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem25)
+        __qtablewidgetitem26 = QTableWidgetItem()
+        __qtablewidgetitem26.setFont(font2);
+        self.yukikoWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem26)
+        __qtablewidgetitem27 = QTableWidgetItem()
+        __qtablewidgetitem27.setFont(font2);
+        self.yukikoWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem27)
+        __qtablewidgetitem28 = QTableWidgetItem()
+        __qtablewidgetitem28.setFont(font2);
+        self.yukikoWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem28)
+        self.yukikoWeaponsTable.setObjectName(u"yukikoWeaponsTable")
+        self.yukikoWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.yukikoWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.yukikoWeaponsTable.setProperty("showDropIndicator", False)
+        self.yukikoWeaponsTable.setDragDropOverwriteMode(False)
+        self.yukikoWeaponsTable.setShowGrid(True)
+        self.yukikoWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.yukikoWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.yukikoWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_25.addWidget(self.yukikoWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.yukikoTab, "")
+        self.kanjiTab = QWidget()
+        self.kanjiTab.setObjectName(u"kanjiTab")
+        self.verticalLayout_26 = QVBoxLayout(self.kanjiTab)
+        self.verticalLayout_26.setObjectName(u"verticalLayout_26")
+        self.kanjiWeaponsTable = QTableWidget(self.kanjiTab)
+        if (self.kanjiWeaponsTable.columnCount() < 4):
+            self.kanjiWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem29 = QTableWidgetItem()
+        __qtablewidgetitem29.setFont(font2);
+        self.kanjiWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem29)
+        __qtablewidgetitem30 = QTableWidgetItem()
+        __qtablewidgetitem30.setFont(font2);
+        self.kanjiWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem30)
+        __qtablewidgetitem31 = QTableWidgetItem()
+        __qtablewidgetitem31.setFont(font2);
+        self.kanjiWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem31)
+        __qtablewidgetitem32 = QTableWidgetItem()
+        __qtablewidgetitem32.setFont(font2);
+        self.kanjiWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem32)
+        self.kanjiWeaponsTable.setObjectName(u"kanjiWeaponsTable")
+        self.kanjiWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.kanjiWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.kanjiWeaponsTable.setProperty("showDropIndicator", False)
+        self.kanjiWeaponsTable.setDragDropOverwriteMode(False)
+        self.kanjiWeaponsTable.setShowGrid(True)
+        self.kanjiWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.kanjiWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.kanjiWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_26.addWidget(self.kanjiWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.kanjiTab, "")
+        self.teddieTab = QWidget()
+        self.teddieTab.setObjectName(u"teddieTab")
+        self.verticalLayout_27 = QVBoxLayout(self.teddieTab)
+        self.verticalLayout_27.setObjectName(u"verticalLayout_27")
+        self.teddieWeaponsTable = QTableWidget(self.teddieTab)
+        if (self.teddieWeaponsTable.columnCount() < 4):
+            self.teddieWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem33 = QTableWidgetItem()
+        __qtablewidgetitem33.setFont(font2);
+        self.teddieWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem33)
+        __qtablewidgetitem34 = QTableWidgetItem()
+        __qtablewidgetitem34.setFont(font2);
+        self.teddieWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem34)
+        __qtablewidgetitem35 = QTableWidgetItem()
+        __qtablewidgetitem35.setFont(font2);
+        self.teddieWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem35)
+        __qtablewidgetitem36 = QTableWidgetItem()
+        __qtablewidgetitem36.setFont(font2);
+        self.teddieWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem36)
+        self.teddieWeaponsTable.setObjectName(u"teddieWeaponsTable")
+        self.teddieWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.teddieWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.teddieWeaponsTable.setProperty("showDropIndicator", False)
+        self.teddieWeaponsTable.setDragDropOverwriteMode(False)
+        self.teddieWeaponsTable.setShowGrid(True)
+        self.teddieWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.teddieWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.teddieWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_27.addWidget(self.teddieWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.teddieTab, "")
+        self.naotoTab = QWidget()
+        self.naotoTab.setObjectName(u"naotoTab")
+        self.verticalLayout_28 = QVBoxLayout(self.naotoTab)
+        self.verticalLayout_28.setObjectName(u"verticalLayout_28")
+        self.naotoWeaponsTable = QTableWidget(self.naotoTab)
+        if (self.naotoWeaponsTable.columnCount() < 4):
+            self.naotoWeaponsTable.setColumnCount(4)
+        __qtablewidgetitem37 = QTableWidgetItem()
+        __qtablewidgetitem37.setFont(font2);
+        self.naotoWeaponsTable.setHorizontalHeaderItem(0, __qtablewidgetitem37)
+        __qtablewidgetitem38 = QTableWidgetItem()
+        __qtablewidgetitem38.setFont(font2);
+        self.naotoWeaponsTable.setHorizontalHeaderItem(1, __qtablewidgetitem38)
+        __qtablewidgetitem39 = QTableWidgetItem()
+        __qtablewidgetitem39.setFont(font2);
+        self.naotoWeaponsTable.setHorizontalHeaderItem(2, __qtablewidgetitem39)
+        __qtablewidgetitem40 = QTableWidgetItem()
+        __qtablewidgetitem40.setFont(font2);
+        self.naotoWeaponsTable.setHorizontalHeaderItem(3, __qtablewidgetitem40)
+        self.naotoWeaponsTable.setObjectName(u"naotoWeaponsTable")
+        self.naotoWeaponsTable.setFrameShape(QFrame.NoFrame)
+        self.naotoWeaponsTable.setFrameShadow(QFrame.Plain)
+        self.naotoWeaponsTable.setProperty("showDropIndicator", False)
+        self.naotoWeaponsTable.setDragDropOverwriteMode(False)
+        self.naotoWeaponsTable.setShowGrid(True)
+        self.naotoWeaponsTable.setGridStyle(Qt.SolidLine)
+        self.naotoWeaponsTable.horizontalHeader().setProperty("showSortIndicator", False)
+        self.naotoWeaponsTable.horizontalHeader().setStretchLastSection(True)
+
+        self.verticalLayout_28.addWidget(self.naotoWeaponsTable)
+
+        self.weaponsTabWidget.addTab(self.naotoTab, "")
+
+        self.horizontalLayout_13.addWidget(self.weaponsTabWidget)
+
+
+        self.verticalLayout_41.addWidget(self.infoFrame_4)
+
+        self.mainStackedWidget.addWidget(self.weaponsPage)
 
         self.verticalLayout.addWidget(self.mainStackedWidget)
 
@@ -1071,7 +1442,8 @@ class Ui_persona4Window(object):
 
         self.retranslateUi(persona4Window)
 
-        self.mainStackedWidget.setCurrentIndex(3)
+        self.mainStackedWidget.setCurrentIndex(4)
+        self.weaponsTabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(persona4Window)
@@ -1083,10 +1455,9 @@ class Ui_persona4Window(object):
         self.bodyLbl.setText(QCoreApplication.translate("persona4Window", u"Welcome to Persona 4 Guide App", None))
         self.headingLbl_3.setText(QCoreApplication.translate("persona4Window", u"Persona 4 Golden", None))
         self.questsBtn_2.setText(QCoreApplication.translate("persona4Window", u"Quests", None))
+        self.weaponsBtn_2.setText(QCoreApplication.translate("persona4Window", u"Weapons", None))
         self.answersBtn_2.setText(QCoreApplication.translate("persona4Window", u"Answers", None))
         self.shadowsBtn_2.setText(QCoreApplication.translate("persona4Window", u"Shadows", None))
-        self.socialLinksBtn_2.setText(QCoreApplication.translate("persona4Window", u"Social Links", None))
-        self.tipsBtn_2.setText(QCoreApplication.translate("persona4Window", u"Tips and Tricks", None))
         self.headingLbl_4.setText(QCoreApplication.translate("persona4Window", u"Quests", None))
         self.questsHomeBtn.setText(QCoreApplication.translate("persona4Window", u"Home", None))
         self.bodyLbl_2.setText(QCoreApplication.translate("persona4Window", u"Persona 4 Golden", None))
@@ -1143,5 +1514,71 @@ class Ui_persona4Window(object):
         self.skill1.setText("")
         self.skill3.setText("")
         self.skill4.setText("")
+        self.headingLbl_7.setText(QCoreApplication.translate("persona4Window", u"Weapons", None))
+        self.weaponsHomeBtn.setText(QCoreApplication.translate("persona4Window", u"Home", None))
+        self.bodyLbl_5.setText(QCoreApplication.translate("persona4Window", u"Weapons", None))
+        ___qtablewidgetitem8 = self.mcWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem8.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem9 = self.mcWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem9.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem10 = self.mcWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem10.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem11 = self.mcWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem11.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.mcTab), QCoreApplication.translate("persona4Window", u"Protagonist", None))
+        ___qtablewidgetitem12 = self.yosukeWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem12.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem13 = self.yosukeWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem13.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem14 = self.yosukeWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem14.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem15 = self.yosukeWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem15.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.yosukeTab), QCoreApplication.translate("persona4Window", u"Yosuke", None))
+        ___qtablewidgetitem16 = self.chieWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem16.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem17 = self.chieWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem17.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem18 = self.chieWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem18.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem19 = self.chieWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem19.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.chieTab), QCoreApplication.translate("persona4Window", u"Chie", None))
+        ___qtablewidgetitem20 = self.yukikoWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem20.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem21 = self.yukikoWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem21.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem22 = self.yukikoWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem22.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem23 = self.yukikoWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem23.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.yukikoTab), QCoreApplication.translate("persona4Window", u"Yukiko", None))
+        ___qtablewidgetitem24 = self.kanjiWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem24.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem25 = self.kanjiWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem25.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem26 = self.kanjiWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem26.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem27 = self.kanjiWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem27.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.kanjiTab), QCoreApplication.translate("persona4Window", u"Kanji", None))
+        ___qtablewidgetitem28 = self.teddieWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem28.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem29 = self.teddieWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem29.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem30 = self.teddieWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem30.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem31 = self.teddieWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem31.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.teddieTab), QCoreApplication.translate("persona4Window", u"Teddie", None))
+        ___qtablewidgetitem32 = self.naotoWeaponsTable.horizontalHeaderItem(0)
+        ___qtablewidgetitem32.setText(QCoreApplication.translate("persona4Window", u"Name", None));
+        ___qtablewidgetitem33 = self.naotoWeaponsTable.horizontalHeaderItem(1)
+        ___qtablewidgetitem33.setText(QCoreApplication.translate("persona4Window", u"Attack", None));
+        ___qtablewidgetitem34 = self.naotoWeaponsTable.horizontalHeaderItem(2)
+        ___qtablewidgetitem34.setText(QCoreApplication.translate("persona4Window", u"Accuracy", None));
+        ___qtablewidgetitem35 = self.naotoWeaponsTable.horizontalHeaderItem(3)
+        ___qtablewidgetitem35.setText(QCoreApplication.translate("persona4Window", u"Effect", None));
+        self.weaponsTabWidget.setTabText(self.weaponsTabWidget.indexOf(self.naotoTab), QCoreApplication.translate("persona4Window", u"Naoto", None))
     # retranslateUi
 

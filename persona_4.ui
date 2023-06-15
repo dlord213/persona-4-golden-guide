@@ -273,6 +273,9 @@ QPushButton:hover {
                   <bold>true</bold>
                  </font>
                 </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
                 <property name="text">
                  <string>Weapons</string>
                 </property>
@@ -326,30 +329,6 @@ QPushButton:hover {
                 </property>
                 <property name="text">
                  <string>Shadows</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="socialLinksBtn_2">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="font">
-                 <font>
-                  <family>Montserrat</family>
-                  <pointsize>16</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="cursor">
-                 <cursorShape>PointingHandCursor</cursorShape>
-                </property>
-                <property name="text">
-                 <string>Social Links</string>
                 </property>
                </widget>
               </item>
@@ -2305,7 +2284,7 @@ QLabel {
                <number>0</number>
               </property>
               <item>
-               <widget class="QPushButton" name="weapmsHomeBtn">
+               <widget class="QPushButton" name="weaponsHomeBtn">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                   <horstretch>0</horstretch>
@@ -2350,7 +2329,7 @@ color: white;
 padding: 4px 4px 4px 4px;</string>
                 </property>
                 <property name="text">
-                 <string>Protagonist</string>
+                 <string>Weapons</string>
                 </property>
                </widget>
               </item>
@@ -2422,6 +2401,16 @@ QTableWidget::item {
 	color: white;
 	text-align: center;
 }
+QTabWidget::pane {
+	border: none;
+}
+QTabBar::tab {
+	background-color: #333533;
+	color: white;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background-color: #4D4D4D
+}
 QTableView {
 	background-color: #333533;
 	border-radius: 12px;
@@ -2447,7 +2436,7 @@ QHeaderView::section:horizontal {
               </attribute>
               <layout class="QHBoxLayout" name="horizontalLayout_14">
                <item>
-                <widget class="QTableWidget" name="tableWidget">
+                <widget class="QTableWidget" name="mcWeaponsTable">
                  <property name="frameShape">
                   <enum>QFrame::NoFrame</enum>
                  </property>
@@ -2532,31 +2521,523 @@ QHeaderView::section:horizontal {
               <attribute name="title">
                <string>Yosuke</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_23">
+               <item>
+                <widget class="QTableWidget" name="yosukeWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
              <widget class="QWidget" name="chieTab">
               <attribute name="title">
                <string>Chie</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_24">
+               <item>
+                <widget class="QTableWidget" name="chieWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
              <widget class="QWidget" name="yukikoTab">
               <attribute name="title">
                <string>Yukiko</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_25">
+               <item>
+                <widget class="QTableWidget" name="yukikoWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
              <widget class="QWidget" name="kanjiTab">
               <attribute name="title">
                <string>Kanji</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_26">
+               <item>
+                <widget class="QTableWidget" name="kanjiWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
              <widget class="QWidget" name="teddieTab">
               <attribute name="title">
                <string>Teddie</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_27">
+               <item>
+                <widget class="QTableWidget" name="teddieWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
              <widget class="QWidget" name="naotoTab">
               <attribute name="title">
                <string>Naoto</string>
               </attribute>
+              <layout class="QVBoxLayout" name="verticalLayout_28">
+               <item>
+                <widget class="QTableWidget" name="naotoWeaponsTable">
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="dragDropOverwriteMode">
+                  <bool>false</bool>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <property name="gridStyle">
+                  <enum>Qt::SolidLine</enum>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Attack</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Accuracy</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Effect</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Montserrat</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </widget>
            </item>

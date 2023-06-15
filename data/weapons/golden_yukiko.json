@@ -1,0 +1,254 @@
+[
+    {
+      "Weapon": "Kyo Sensu",
+      "Attack": 36,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Default"
+    },
+    {
+      "Weapon": "Noh Fan",
+      "Attack": 74,
+      "Accuracy": 95,
+      "Effect": "-",
+      "Price": "¥11,200",
+      "Materials": "-",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Silk Fan",
+      "Attack": 85,
+      "Accuracy": 92,
+      "Effect": "-",
+      "Price": "¥12,400",
+      "Materials": "Cloth Wings x10",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Arazuyu Fan",
+      "Attack": 89,
+      "Accuracy": 96,
+      "Effect": "+Resist Silence",
+      "Price": "¥13,800",
+      "Materials": "4th Boy's Talc x1",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Suzaku Feather",
+      "Attack": 92,
+      "Accuracy": 92,
+      "Effect": "+50 SP",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Defeat secret boss - Yukiko's Castle"
+    },
+    {
+      "Weapon": "Tesseb",
+      "Attack": 108,
+      "Accuracy": 94,
+      "Effect": "+4 Strength",
+      "Price": "¥19,600",
+      "Materials": "Passion Clasp x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Hanachirusato",
+      "Attack": 123,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥21,600",
+      "Materials": "Glossy Clasp x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Masquerade",
+      "Attack": 134,
+      "Accuracy": 92,
+      "Effect": "-",
+      "Price": "¥23,600",
+      "Materials": "Tortoise Shell x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Harlot's Mercy",
+      "Attack": 140,
+      "Accuracy": 60,
+      "Effect": "-",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Locked chest - Marukyu Striptease"
+    },
+    {
+      "Weapon": "Madam's Charm",
+      "Attack": 145,
+      "Accuracy": 92,
+      "Effect": "+Confuse (med odds)",
+      "Price": "¥25,600",
+      "Materials": "Devilish Feather x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Duchess",
+      "Attack": 150,
+      "Accuracy": 80,
+      "Effect": "+Panic (high odds)",
+      "Price": "-",
+      "Materials": "Inaba Trout x3",
+      "Location": "Riverbed - Trade (June)"
+    },
+    {
+      "Weapon": "Inversion Fan",
+      "Attack": 150,
+      "Accuracy": 92,
+      "Effect": "-",
+      "Price": "¥26,800",
+      "Materials": "Gazing Clasp x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Amagyou Fan",
+      "Attack": 162,
+      "Accuracy": 94,
+      "Effect": "+Silence (high odds)",
+      "Price": "¥28,000",
+      "Materials": "2nd Girl's Talc x1",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Mogari-Bue",
+      "Attack": 170,
+      "Accuracy": 98,
+      "Effect": "-",
+      "Price": "¥29,600",
+      "Materials": "Azalea Cord x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Fickle Madam",
+      "Attack": 173,
+      "Accuracy": 95,
+      "Effect": "+Rage (low odds)",
+      "Price": "¥32,400",
+      "Materials": "Dogma Clasp x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Akisame Fan",
+      "Attack": 180,
+      "Accuracy": 50,
+      "Effect": "+10 Luck",
+      "Price": "¥25,000",
+      "Materials": "3rd Girl's Talc x1",
+      "Location": ""
+    },
+    {
+      "Weapon": "Ganar",
+      "Attack": 186,
+      "Accuracy": 98,
+      "Effect": "-",
+      "Price": "¥32,000",
+      "Materials": "Fur Clasp x6",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Courtesia",
+      "Attack": 208,
+      "Accuracy": 95,
+      "Effect": "+10 SP",
+      "Price": "¥36,400",
+      "Materials": "Smart Clasp x4",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Adoracion",
+      "Attack": 218,
+      "Accuracy": 94,
+      "Effect": "-",
+      "Price": "¥37,400",
+      "Materials": "Scorching Scale x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Uhi Fan",
+      "Attack": 220,
+      "Accuracy": 92,
+      "Effect": "+Resist Exhaustion",
+      "Price": "¥38,000",
+      "Materials": "Rare Raincoat x1",
+      "Location": ""
+    },
+    {
+      "Weapon": "Suzumushi",
+      "Attack": 235,
+      "Accuracy": 95,
+      "Effect": "-",
+      "Price": "¥40,000",
+      "Materials": "Blessed Dish x6",
+      "Location": ""
+    },
+    {
+      "Weapon": "Noblesse Oblige",
+      "Attack": 260,
+      "Accuracy": 94,
+      "Effect": "¥44,400",
+      "Price": "God Tailfeather x4",
+      "Materials": "",
+      "Location": ""
+    },
+    {
+      "Weapon": "Hototogisu",
+      "Attack": 272,
+      "Accuracy": 92,
+      "Effect": "+10 Magic",
+      "Price": "¥46,000",
+      "Materials": "Love Clasp x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Secret Fan",
+      "Attack": 278,
+      "Accuracy": 96,
+      "Effect": "-",
+      "Price": "¥47,200",
+      "Materials": "Golden Film x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Kacho Fugetsu",
+      "Attack": 293,
+      "Accuracy": 95,
+      "Effect": "+Enervate (med odds)",
+      "Price": "¥50,000",
+      "Materials": "Red-Gold Cord x4",
+      "Location": ""
+    },
+    {
+      "Weapon": "Pieta",
+      "Attack": 300,
+      "Accuracy": 97,
+      "Effect": "-",
+      "Price": "¥51,200",
+      "Materials": "Merciless Cord x10",
+      "Location": ""
+    },
+    {
+      "Weapon": "Yume no Ukihashi",
+      "Attack": 328,
+      "Accuracy": 98,
+      "Effect": "+Resist Confusion",
+      "Price": "¥56,000",
+      "Materials": "Forbidden Scale x10",
+      "Location": "Daidara Metalworks"
+    },
+    {
+      "Weapon": "Boundless Sea",
+      "Attack": 395,
+      "Accuracy": 98,
+      "Effect": "+Exhaust (high odds)",
+      "Price": "-",
+      "Materials": "-",
+      "Location": "Defeat the Reaper with Yukiko in the party."
+    }
+   ]
